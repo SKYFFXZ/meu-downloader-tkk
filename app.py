@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__)
 
 # Coloque sua chave da LamaTok aqui ou nas configurações do Render
-API_KEY = os.environ.get('LAMATOK_KEY', 'SUA_CHAVE_AQUI')
+API_KEY = os.environ.get('LAMATOK_KEY', '6bubkfcobjmnyqhdwht04v648m1cfila')
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
